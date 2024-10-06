@@ -29,9 +29,9 @@ const Portfolio = () => {
         threshold: 0.2,       // Trigger when 20% of the component is visible
       });
     return (
-        <section id="portfolio" ref={ref} className={`py-16 bg-gray-100 ${inView ? 'animate-fade-in' : 'animate-fade-out'}`}>
-            <div className='container mx-auto'>
-                <h2 className='text-4xl font-bold text-center mb-8'>My Work</h2>
+        <section id="portfolio" ref={ref} className='bg-gradient-to-b from-pink-400 to-gray-300'>
+            <div className={`container mx-auto py-16 bg-gradient-to-b from-pink-400 to-gray-300 ${inView ? 'animate-fade-in' : 'animate-fade-out'}`}>
+                <h2 className='text-4xl font-bold text-center mb-8 pb-4'>Portfolio</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {projects.map((project,index) => ( 
                         <div key={index} className='bg-white rounded-lg overflow-hidden shadow-red-glow'>

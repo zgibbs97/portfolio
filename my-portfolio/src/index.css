@@ -87,3 +87,19 @@ html {
 .portfolio-box:hover {
     box-shadow: 0 15px 25px -5px rgba(255, 0, 0, 0.9), 0 8px 10px -3px rgba(255, 0, 0, 0.7);
   }
+
+  /* Custom styles for bio section */
+.bio-section {
+    max-width: 300px; /* Adjust width as needed */
+  }
+  
+  /* For responsiveness */
+  @media (min-width: 768px) {
+    .bio-section {
+      /* Optional additional styles for larger screens */
+    }
+  }
+
+  .bio {
+    max-width: 800px; /* Control the width for better readability */
+  }

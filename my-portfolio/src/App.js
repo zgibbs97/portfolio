@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './components/Header'
 import './index.css';
 import Portfolio from './components/Portfolio';
+import Bio from './components/Bio';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className='App'> 
     <Header />
     <Portfolio/>
+    <Bio/>
     </div>
   );
 }
